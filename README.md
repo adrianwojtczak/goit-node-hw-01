@@ -14,7 +14,7 @@ To retrieve and display the entire list of contacts as a table (console.table), 
 
 To retrieve and display a contact by its ID, use the following command:
 
-`node index.js --action get --id 05olLMgyVQdWRwgKfg5J6`
+`node index.js --action get --id YOUR_CONTACT_ID`
 
 ![Get contact by Id](assets/get.jpg)
 
@@ -22,7 +22,7 @@ To retrieve and display a contact by its ID, use the following command:
 
 To add a new contact, use the following command:
 
-`node index.js --action add --name Mango --email mango@gmail.com --phone 322-22-22`
+`node index.js --action add --name YOUR_CONTACT_NAME --email YOUR_CONTACT_EMAIL --phone YOUR_CONTACT_PHONE`
 
 ![Add new contact](assets/add.jpg)
 
@@ -30,8 +30,8 @@ To add a new contact, use the following command:
 
 To remove a contact by its ID, use the following command:
 
-`node index.js --action remove --id qdggE76Jtbfd9eWJHrssH`
+`node index.js --action remove --id YOUR_CONTACT_ID`
 
 ![Remove contact](assets//remove.jpg)
 
-Please replace the placeholders like --id, --name, --email, and --phone with actual values when using these commands.
+Please replace the placeholders like **YOUR_CONTACT_NAME**, with actual values when using these commands.
